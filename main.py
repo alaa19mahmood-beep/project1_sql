@@ -7,6 +7,7 @@ from app.utilities.logging_client import logger
 from app.routers.marks import router as MarksRouter
 from app.routers.students import router as StudentsRouter
 from app.routers.majors import router as MajorsRouter
+from app.routers.subjects import router as SubjectsRouter
 
 
 app = FastAPI(title="Base School")
@@ -14,6 +15,7 @@ app = FastAPI(title="Base School")
 app.include_router(MarksRouter)
 app.include_router(StudentsRouter)
 app.include_router(MajorsRouter)
+app.include_router(SubjectsRouter)
 
 logger.info("Server Started")
 
