@@ -1,0 +1,5 @@
+[2026-02-27 16:28:21,859] || INFO :- Server Started
+[2026-02-27 16:28:21,900] || INFO :- Server Started
+[2026-02-27 16:33:52,569] || INFO :- Payload: {'name': 'RXT', 'email': 'rxt@test.com', 'age': 22, 'phone': 'tel:+962-7-9000-0000', 'major_id': 1}
+[2026-02-27 16:35:13,794] || INFO :- Payload: {'name': 'RXT', 'email': 'rxt@test.com', 'age': 22, 'phone': 'tel:+962-7-9000-0000', 'major_id': 1}
+[2026-02-27 16:37:36,160] || INFO :- Payload: {'name': 'RXT', 'email': 'rxt@test.com', 'age': 22, 'phone': 'tel:+962-7-9000-0000', 'major_id': 1}

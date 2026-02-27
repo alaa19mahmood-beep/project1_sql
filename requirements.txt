@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+pydentic
+SQLAlchemy
+alembic
+psycopg>=3.2
+pydantic-settings
+pydantic-extra-types
+phonenumbers
+pydantic[email]

@@ -1,0 +1,9 @@
+[2026-02-27 19:37:08,653] || INFO :- Server Started
+[2026-02-27 19:37:08,706] || INFO :- Server Started
+[2026-02-27 19:42:38,713] || INFO :- Payload: {'name': 'Mohammad', 'email': 'mohammad@test.com', 'age': 22, 'phone': 'tel:+962-7-9999-9999', 'major_id': 1}
+[2026-02-27 19:42:38,733] || INFO :- Major found: 1
+[2026-02-27 19:42:38,753] || INFO :- Student creation failed: (psycopg.errors.NotNullViolation) null value in column "updated_at" of relation "students" violates not-null constraint
+DETAIL:  Failing row contains (1, Mohammad, 22, mohammad@test.com, tel:+962-7-9999-9999, 1, 2026-02-27 19:42:38.72315, null).
+[SQL: INSERT INTO students (name, age, email, phone, major_id, created_at, updated_at) VALUES (%(name)s::VARCHAR, %(age)s::INTEGER, %(email)s::VARCHAR, %(phone)s::VARCHAR, %(major_id)s::INTEGER, now(), %(updated_at)s::TIMESTAMP WITHOUT TIME ZONE) RETURNING students.id, students.created_at]
+[parameters: {'name': 'Mohammad', 'age': 22, 'email': 'mohammad@test.com', 'phone': 'tel:+962-7-9999-9999', 'major_id': 1, 'updated_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
